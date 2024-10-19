@@ -1,0 +1,90 @@
+{
+  "ascii": [
+"██████╗ ██╗███████╗██╗  ██╗ █████╗ ██╗     ██╗   ██╗",
+"██╔══██╗██║██╔════╝██║  ██║██╔══██╗██║     ██║   ██║",
+"██████╔╝██║███████╗███████║███████║██║     ██║   ██║",
+"██╔══██╗██║╚════██║██╔══██║██╔══██║██║     ██║   ██║",
+"██████╔╝██║███████║██║  ██║██║  ██║███████╗╚██████╔╝",
+"╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ "
+  ],
+  "second_ascii": [
+    "__ __|  |                 ____|               _)                         ",
+    "   |    __ \\    _ \\       __|    __ \\    _` |  |  __ \\    _ \\   _ \\   __|",
+    "   |    | | |   __/       |      |   |  (   |  |  |   |   __/   __/  |   ",
+    "  _|   _| |_| \\___|      _____| _|  _| \\__, | _| _|  _| \\___| \\___| _|   ",
+    "                                       |___/                             "
+],
+"combined_ascii": [
+  "██████╗ ██╗███████╗██╗  ██╗ █████╗ ██╗     ██╗   ██╗",
+  "██╔══██╗██║██╔════╝██║  ██║██╔══██╗██║     ██║   ██║",
+  "██████╔╝██║███████╗███████║███████║██║     ██║   ██║",
+  "██╔══██╗██║╚════██║██╔══██║██╔══██║██║     ██║   ██║",
+  "██████╔╝██║███████║██║  ██║██║  ██║███████╗╚██████╔╝",
+  "╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ",
+  "__ __|  |                 ____|               _)                         ",
+  "   |    __ \\    _ \\       __|    __ \\    _` |  |  __ \\    _ \\   _ \\   __|",
+  "   |    | | |   __/       |      |   |  (   |  |  |   |   __/   __/  |   ",
+  "  _|   _| |_| \\___|      _____| _|  _| \\__, | _| _|  _| \\___| \\___| _|   ",
+  "                                       |___/                             "
+],
+  "title": "System x86_64",
+  "username": "вιѕнαℓυ",
+  "hostname": "system",
+  "password": "122112",
+  "repoLink": "https://gitlab.com/theanxiuser/theanxiuser.gitlab.io",
+  "diaryLink": "https://theanxiuser.gitlab.io/thecipherdiary",
+  "social": {
+    "email": "theanxiuser@gmail.com",
+    "github": "theanxiuser",
+    "gitlab": "theanxiuser",
+    "linkedin": "theanxiuser",
+    "facebook": "theanxiuser",
+    "instagram": "theanxiuser",
+    "x": "theanxiuser",
+    "discord": "theanxiuser",
+    "tryhackme": "theanxiuser",
+    "hackthebox": "theanxiuser",
+    "medium": "theanxiuser"
+  },
+  "aboutGreeting": "Hi there, please find me here",
+  "projects": [
+    [
+      "Praharak",
+      "Flow Based Network Threat Detection and Protection System.",
+      "https://theanxiuser.github.io/praharak/"
+    ],
+    [
+      "TheCipherDiary",
+      "Something Useful.",
+      "https://theanxiuser.gitlab.io/thecipherdiary"
+    ],
+    [
+      "вιѕнαℓυ",
+      "Terminal Like Portflio Site.",
+      "https://bishall.com.np"
+    ]
+  ],
+  "colors": {
+    "background": "#000000",
+    "foreground": "#F8DDE5",
+    "banner": "#048400",
+    "border": {
+      "visible": true,
+      "color": "#f2f2f4"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
