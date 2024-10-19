@@ -1,0 +1,27 @@
+image: node:16
+
+# Define the stages in the pipeline
+stages:
+  - build
+  - deploy
+
+# Build stage: Install dependencies and build the project
+build:
+  stage: build
+  script:
+    - npm install           # Install dependencies
+    - npm run build         # Compile TypeScript and build the Vite project
+  artifacts:
+    paths:
+      - dist/               # Collect the build artifacts in the 'dist' directory
+
+# Deploy stage: Deploy the static files to GitLab Pages
+pages:
+  stage: deploy
+  script:
+    - mv dist/ public/      # Move the 'dist' folder to 'public' (GitLab Pages serves from 'public')
+  artifacts:
+    paths:
+      - public              # The 'public' directory is where GitLab Pages will look for static files
+  only:
+    - main               # Only deploy when changes are pushed to the master branch
