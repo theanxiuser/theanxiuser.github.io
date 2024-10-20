@@ -3,7 +3,7 @@ import command from '../../config.json' assert {type: 'json'};
 const createBanner = () : string[] => {
   const banner : string[] = [];
   banner.push("<br>")
-  command.combined_ascii.forEach((ele) => {
+  command.ascii.forEach((ele) => {
     let bannerString = "";
     //this is for the ascii art
     for (let i = 0; i < ele.length; i++) {
