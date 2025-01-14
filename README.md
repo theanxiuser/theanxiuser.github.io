@@ -1,4 +1,4 @@
-# [ вιѕнαℓυ ](https://bishallpoudel.com.np/)
+# [ вιѕнαℓυ ](https://theanxiuser.github.io/)
 
 ```
 bishalu@system:$ ~ help
@@ -8,7 +8,7 @@ bishalu@system:$ ~ help
   'about'          Expand the connections.
   'whereis'        Look into social media eg. whereis --linkedin.
   'projects'       Maybe there's something interesting.
-  'thecipherdiary' Something useful.
+  'writups'        Something useful.
   'sudo'           ???
   'repo'           View this project repository.
   'banner'         Display the banner.

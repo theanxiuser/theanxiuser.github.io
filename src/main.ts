@@ -28,12 +28,12 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear", "whereis", "thecipherdiary"];
+const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear", "whereis", "writups"];
 const HISTORY: string[] = [];
 const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
 const SOCIAL = command.social;
-const THECIPHERDIARY = command.diaryLink
+const WRITUPS = command.diaryLink
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -267,10 +267,10 @@ function commandHandler(input: string) {
       }, 500);
       break;
 
-    case 'thecipherdiary':
+    case 'writups':
       writeLines(["Redirecting...", "<br>"]);
       setTimeout(() => {
-        window.open(THECIPHERDIARY, '_blank');
+        window.open(WRITUPS, '_blank');
       }, 500);
       break;
 

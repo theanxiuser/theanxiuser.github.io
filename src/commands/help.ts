@@ -16,7 +16,7 @@ const helpObj = {
       "'projects'",
       "Maybe there's something interesting."
     ],
-    ["'thecipherdiary'",
+    ["'writups'",
       "Something useful."
     ],
     ["'sudo'",

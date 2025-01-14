@@ -97,7 +97,7 @@ const createAbout = (): string[] => {
   string += SPACE.repeat(2);
   string += diary;
   string += SPACE.repeat(17 - DIARY.length);
-  string += `<a target='_blank' href='${command.diaryLink}'>thecipherdiary</a>`;
+  string += `<a target='_blank' href='${command.diaryLink}'>writups</a>`;
   about.push(string);
 
   string = '';
